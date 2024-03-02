@@ -1,0 +1,17 @@
+form.search-field {
+  border: none;
+  padding: 0;
+  margin: 10px;
+}
+
+input.search-field {
+  width: 220px;
+  border: none;
+  display: block;
+  padding: 9px 4px 9px 40px;
+  background-color: rgba(240, 240, 240, 0.983);
+  background-image: url("../../public/search-icon.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 20%;
+}

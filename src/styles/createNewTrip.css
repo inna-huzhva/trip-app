@@ -1,0 +1,93 @@
+.modal-background {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: default;
+}
+
+.modal-container {
+  width: 600px;
+  height: 500px;
+  margin-left: 200px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.modal-container input {
+  width: 98%;
+}
+
+.modal-header {
+  height: 7%;
+  border-bottom: 1px solid lightgrey;
+}
+
+.modal-header span {
+  font-size: larger;
+  font-weight: 600;
+}
+
+.modal-header button {
+  float: right;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  color: lightgrey;
+}
+
+.modal-body {
+  margin-top: 80px;
+  height: 86%;
+}
+
+.modal-body .input-container {
+  margin: 15px 0;
+}
+
+.modal-body input {
+  margin: 10px 0 10px;
+  line-height: 25px;
+  border: 1px solid lightgrey;
+}
+
+.modal-body label {
+  font-size: inherit;
+  font-weight: 600;
+}
+
+.modal-body .asterisk {
+  color: red;
+}
+
+.modal-footer {
+  height: 7%;
+  text-align: right;
+  border-top: 1px solid lightgrey;
+}
+
+.modal-footer button {
+  margin: 15px 10px 0 0;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.modal-footer .cancel-btn {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.modal-footer .save-btn {
+  border: none;
+  color: white;
+  background-color: rgb(33, 110, 219);
+}

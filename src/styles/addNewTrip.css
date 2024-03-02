@@ -1,0 +1,18 @@
+.add-new-trip-container {
+  width: 20%;
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.add-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(240, 240, 240, 0.983);
+  text-align: center;
+}

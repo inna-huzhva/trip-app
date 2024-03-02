@@ -1,0 +1,22 @@
+[
+  {"name": "Athens", "img": "city-images/athens.jpeg"},
+  {"name": "Berlin", "img": "city-images/berlin.jpeg"},
+  {"name": "Hong Kong", "img": "city-images/hong_kong.jpeg"},
+  {"name": "Cairo", "img": "city-images/cairo.jpeg"},
+  {"name": "Copenhagen", "img": "city-images/copenhagen.jpeg"},
+  {"name": "Kyiv", "img": "city-images/kyiv.jpeg"},
+  {"name": "Lisbon", "img": "city-images/lisbon.jpeg"},
+  {"name": "London", "img": "city-images/london.jpeg"},
+  {"name": "Los Angeles", "img": "city-images/los-angeles.jpeg"},
+  {"name": "Madrid", "img": "city-images/madrid.jpeg"},
+  {"name": "Mexico", "img": "city-images/mexico.jpeg"},
+  {"name": "New York", "img": "city-images/new_york.jpeg"},
+  {"name": "Paris", "img": "city-images/paris.jpeg"},
+  {"name": "Prague", "img": "city-images/prague.jpeg"},
+  {"name": "Rome", "img": "city-images/rome.jpeg"},
+  {"name": "Sydney", "img": "city-images/sydney.jpeg"},
+  {"name": "Singapore", "img": "city-images/singapore.jpeg"},
+  {"name": "Istanbul", "img": "city-images/istanbul.jpeg"},
+  {"name": "Tokyo", "img": "city-images/tokyo.jpeg"},
+  {"name": "Toronto", "img": "city-images/toronto.jpeg"}
+]
