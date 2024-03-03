@@ -1,4 +1,4 @@
-import "./styles/listOfTrips.css";
+import "./listOfTrips.css";
 
 function ListOfTrips({trips, selectedTrip, setSelectedTrip}) {
   return (

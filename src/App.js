@@ -1,11 +1,10 @@
-import { useLocalStorage } from './useLocalStorage';
-import AddNewTrip from './AddNewTrip';
-import AppName from './AppName';
-import ListOfTrips from './ListOfTrips';
-import SearchField from './SearchField';
-import WeatherForecast from './WeatherForecast';
-import WeekForecast from './WeekForecast';
 import { useState } from 'react';
+import { useLocalStorage } from './useLocalStorage';
+import SearchField from './trips/SearchField';
+import AddNewTrip from './trips/AddNewTrip';
+import ListOfTrips from './trips/ListOfTrips';
+import WeatherForecast from './weather/WeatherForecast';
+import WeekForecast from './weather/WeekForecast';
 
 function App() {
   const [trips, setTrips] = useLocalStorage("trips", [
@@ -24,7 +23,7 @@ function App() {
     <div className="App">
       <div className='main-page'>
         <div className="main-content">
-          <AppName />
+          <div className="app-name">Weather Forecast</div>
           <SearchField searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
           <ListOfTrips trips={foundTrips} selectedTrip={selectedTrip} setSelectedTrip={setSelectedTrip} />
           <WeekForecast trip={selectedTrip} />

@@ -1,4 +1,4 @@
-import "./styles/searchField.css";
+import "./searchField.css";
 
 function SearchField({searchQuery, setSearchQuery}) {
   return (

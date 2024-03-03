@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import CreateNewTrip from './CreateNewTrip';
-import "./styles/addNewTrip.css";
+import "./addNewTrip.css";
 
 function AddNewTrip({addTrip}) {
   const [openModal, setOpenModal] = useState(false);

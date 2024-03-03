@@ -1,6 +1,6 @@
-import "./styles/createNewTrip.css";
 import { useState } from 'react';
 import cities from "./cities.json";
+import "./createNewTrip.css";
 
 function CreateNewTrip({ closeModal, addTrip }) {
   const [city, setCity] = useState("");

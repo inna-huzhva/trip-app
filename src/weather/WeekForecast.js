@@ -1,5 +1,5 @@
 import { useWeather } from './useWeather';
-import "./styles/weekForecast.css";
+import "./weekForecast.css";
 
 function WeekForecast({trip}) {
   const weather = useWeather(trip);

@@ -1,7 +1,7 @@
 import TodaysWeather from "./TodaysWeather";
 import CountdownTimer from "./CountdownTimer";
 import {useTodayWeather} from "./useWeather";
-import "./styles/weatherForecast.css";
+import "./weatherForecast.css";
 
 function WeatherForecast({trip}) {
   const weather = useTodayWeather(trip.city);
