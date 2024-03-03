@@ -8,7 +8,7 @@ function WeatherForecast({trip}) {
   return (
     <div className="weather-forecast-container">
       {weather && <TodaysWeather weather={weather} />}
-      <CountdownTimer />
+      <CountdownTimer targetDate={trip.startDate} />
     </div>
   );
 }
