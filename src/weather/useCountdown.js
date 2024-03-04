@@ -2,12 +2,11 @@ import { useState, useEffect } from "react";
 
 export const useCountdown = (targetDate) => {
   const countdownDate = new Date(targetDate).getTime();
-
-  const [countdown, setCountdown] = useState(
-    countdownDate - new Date().getTime()
-  );
+  const [countdown, setCountdown] = useState();
 
   useEffect(() => {
+    setCountdown(countdownDate - new Date().getTime());
+
     const interval = setInterval(() => {
       setCountdown(countdownDate - new Date().getTime());
     }, 1000);
