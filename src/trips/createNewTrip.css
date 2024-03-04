@@ -69,6 +69,15 @@
   color: red;
 }
 
+.modal-body .has-error {
+  background-color: rgb(249, 241, 242);
+  color: red;
+}
+
+.modal-body .error {
+  color: red;
+}
+
 .modal-footer {
   height: 7%;
   text-align: right;
@@ -90,4 +99,9 @@
   border: none;
   color: white;
   background-color: rgb(33, 110, 219);
+}
+
+.modal-footer .save-btn:disabled {
+  background-color: rgb(90, 147, 227);
+  cursor: not-allowed;
 }
